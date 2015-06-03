@@ -15,7 +15,7 @@ public class Testclass {
 
 	@Test
 	public void testAdd() {
-		assertEquals(toTest.add(5, 8),10);
+		assertEquals(toTest.add(2, 8),10);
 	}
 
 	@Test
