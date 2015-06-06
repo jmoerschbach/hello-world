@@ -27,5 +27,10 @@ public class Testclass {
 	public void testMulitply() {
 		assertEquals(toTest.mulitply(3, 2), 6);
 	}
+	
+	@Test
+	public void testDivision() {
+		assertEquals(toTest.divide(6, 3), 2);
+	}
 
 }

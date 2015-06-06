@@ -14,4 +14,12 @@ public class ToTest {
 	public int mulitply(int x, int y) {
 		return x*y;
 	}
+	
+	public int divide(int x, int y) {
+		return x/y;
+	}
+	
+	public int modulo(int x, int y) {
+		return x%y;
+	}
 }
