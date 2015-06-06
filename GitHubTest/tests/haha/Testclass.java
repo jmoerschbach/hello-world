@@ -8,6 +8,7 @@ import org.junit.Test;
 public class Testclass {
 
 	private ToTest toTest;
+
 	@Before
 	public void setUp() throws Exception {
 		toTest = new ToTest();
@@ -15,7 +16,7 @@ public class Testclass {
 
 	@Test
 	public void testAdd() {
-		assertEquals(toTest.add(2, 8),10);
+		assertEquals(toTest.add(2, 8), 10);
 	}
 
 	@Test
@@ -27,10 +28,15 @@ public class Testclass {
 	public void testMulitply() {
 		assertEquals(toTest.mulitply(3, 2), 6);
 	}
-	
+
 	@Test
 	public void testDivision() {
 		assertEquals(toTest.divide(6, 3), 2);
+	}
+
+	@Test
+	public void testFac() {
+		assertEquals(toTest.fac(5), 120);
 	}
 
 }

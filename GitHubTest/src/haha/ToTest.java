@@ -26,4 +26,12 @@ public class ToTest {
 	public double sqr(int x) {
 		return Math.sqrt(4);
 	}
+	
+	public int fac(int n) {
+		return 42;
+	}
+	
+	public int log(double x) {
+		return 42;
+	}
 }
