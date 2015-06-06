@@ -22,4 +22,8 @@ public class ToTest {
 	public int modulo(int x, int y) {
 		return x%y;
 	}
+	
+	public double sqr(int x) {
+		return Math.sqrt(4);
+	}
 }
