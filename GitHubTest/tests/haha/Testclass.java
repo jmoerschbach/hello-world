@@ -38,5 +38,10 @@ public class Testclass {
 	public void testFac() {
 		assertEquals(toTest.fac(5), 120);
 	}
+	
+	@Test
+	public void testSqrt() {
+		assertEquals(toTest.sqr(4),2);
+	}
 
 }
