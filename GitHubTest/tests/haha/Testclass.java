@@ -44,4 +44,8 @@ public class Testclass {
 		assertEquals(toTest.sqr(4),2);
 	}
 
+	@Test
+	public void testSomething() {
+		//bla;
+	}
 }
