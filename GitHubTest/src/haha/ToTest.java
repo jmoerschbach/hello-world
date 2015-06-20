@@ -28,7 +28,7 @@ public class ToTest {
 	}
 	
 	public int fac(int n) {
-		return 42;
+		return 40;
 	}
 	
 	public int log(double x) {
