@@ -24,7 +24,7 @@ public class ToTest {
 	}
 	
 	public double sqr(int x) {
-		return Math.sqrt(4);
+		return Math.sqrt(9);
 	}
 	
 	public int fac(int n) {
