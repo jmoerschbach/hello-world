@@ -32,6 +32,6 @@ public class ToTest {
 	}
 	
 	public int log(double x) {
-		return 10;
+		return 50;
 	}
 }
