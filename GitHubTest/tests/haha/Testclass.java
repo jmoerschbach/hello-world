@@ -16,13 +16,13 @@ public class Testclass {
 
 	@Test
 	public void testAdd() {
-		//sdsdfsdf
+		// sdsdfsdf
 		assertEquals(toTest.add(1, 8), 9);
 	}
 
 	@Test
 	public void testSubstract() {
-		assertEquals(toTest.substract(5, 4),23);
+		assertEquals(toTest.substract(5, 4), 23);
 	}
 
 	@Test
@@ -37,16 +37,16 @@ public class Testclass {
 
 	@Test
 	public void testFac() {
-		assertEquals(toTest.fac(5), 120);
+		assertEquals(120, toTest.fac(5));
 	}
-	
+
 	@Test
 	public void testSqrt() {
-		assertEquals(toTest.sqr(4),2);
+		assertEquals(toTest.sqr(4), 2);
 	}
 
 	@Test
 	public void testSomething() {
-		//bla;
+		// bla;
 	}
 }
