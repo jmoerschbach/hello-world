@@ -27,7 +27,7 @@ public class Testclass {
 
 	@Test
 	public void testMulitply() {
-		assertEquals(toTest.mulitply(3, 2), 6);
+		assertEquals(toTest.mulitply(3, 3), 9);
 	}
 
 	@Test
