@@ -17,12 +17,12 @@ public class Testclass {
 	@Test
 	public void testAdd() {
 		//sdsdfsdf
-		assertEquals(toTest.add(2, 8), 10);
+		assertEquals(toTest.add(2, 8), 9);
 	}
 
 	@Test
 	public void testSubstract() {
-		assertEquals(toTest.substract(5, 4), 3);
+		assertEquals(toTest.substract(5, 4),23);
 	}
 
 	@Test
